@@ -1,0 +1,29 @@
+Aufgabe 1. Lambda Übung
+    sort the next list of touples using a lambda function
+    
+    top_20_tv_shows = [("The Twilight Zone", 9.0),("Rick and Morty", 9.1),("Planet Earth", 9.4),("Band of Brothers", 9.4),("Blue Planet II", 9.3),("Breaking Bad", 9.5),("Game of Thrones", 9.2),("Life", 9.1),("Avatar: The Last Airbender", 9.3),("Fullmetal Alchemist: Brotherhood", 9.1),("Chernobyl", 9.3),("Cosmos", 9.3),("Planet Earth II", 9.5),("Our Planet", 9.2),("Cosmos: A Spacetime Odyssey", 9.2),("The World at War", 9.2),("The Wire", 9.3),("Bluey", 9.3),("The Sopranos", 9.2), ("The Last Dance", 9.1)]
+    
+    
+Aufgabe 2. Iteratoren
+    einen Iterator erstellen, der Potenzen von 2 berechnen kann
+    
+Aufgabe 3. Generatoren
+    einen Generator erstellen, der die Fibonacci-Reihe erzeugt
+
+
+Aufgabe 4. Dataclass + Annotations
+
+Schreibe einen Decorator, der Folgene Eigenschafter erfüllt:
+1.: Alle übergebenen int, sind deltas, die wirklich zu übergeben Werte sind also vorher + jetziger Wert, startend bei 0
+Beispiel
+Übergeben Bekommt
+1           1
+2           3
+0           3
+3           6
+2.: Alle nicht klar als int markierten Argument, werden einfach so übergeben
+3.: Aus dem Ergebnisstring werden anstößige Texte mit * ersetz, wobei anstößig gleich "anstößig" heißt
+Zusatz: der startwert für die deltas ist einstellbar (nicht nur 0)
+
+Hinweis: inspect.getfullargspec um die namen der Argumente zu bekommen
+
